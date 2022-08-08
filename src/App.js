@@ -10,7 +10,8 @@ function App() {
     <Container id="main-container" className='d-grid h-100'>
       <Form id="sign-in-form" className='text-center w-100'>
         <img className='mb-4 bootstrap-logo'
-        scr={Img1}
+          // C'est *src* et non *scr* c'etait l'erreur
+        src={Img1}
         alt="Bootstrap 5" 
         ></img>
         <h3 className='mb-3  fs-4 fw-normal'>S'inscrire au régistre de visite</h3>
